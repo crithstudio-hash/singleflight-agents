@@ -26,10 +26,10 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/andrekost/singleflight-agents"
-Repository = "https://github.com/andrekost/singleflight-agents"
-Issues = "https://github.com/andrekost/singleflight-agents/issues"
-Changelog = "https://github.com/andrekost/singleflight-agents/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/crithstudio-hash/singleflight-agents"
+Repository = "https://github.com/crithstudio-hash/singleflight-agents"
+Issues = "https://github.com/crithstudio-hash/singleflight-agents/issues"
+Changelog = "https://github.com/crithstudio-hash/singleflight-agents/blob/main/CHANGELOG.md"
 
 [project.optional-dependencies]
 openai = ["openai-agents"]
