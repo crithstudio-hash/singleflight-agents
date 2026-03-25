@@ -1,5 +1,11 @@
 # singleflight-agents
 
+[![PyPI](https://img.shields.io/pypi/v/singleflight-agents)](https://pypi.org/project/singleflight-agents/)
+[![Python](https://img.shields.io/pypi/pyversions/singleflight-agents)](https://pypi.org/project/singleflight-agents/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Tests](https://img.shields.io/badge/tests-5%20passing-brightgreen)]()
+[![Zero Dependencies](https://img.shields.io/badge/dependencies-zero-orange)]()
+
 Stop paying twice for the same agent work.
 
 `singleflight-agents` collapses duplicate tool calls across parallel agents, retries, and branches into **one real execution**. Everyone else gets a signed copy of the result.
@@ -249,6 +255,19 @@ docs/
 - Python 3.11+
 - No runtime dependencies (stdlib only)
 - Optional: `openai-agents` for the OpenAI adapter, `langgraph` for the LangGraph adapter
+
+## Part of the Agent Toolkit
+
+singleflight-agents is part of a suite of zero-dependency Python tools for the AI agent era:
+
+| Tool | What it does |
+|------|-------------|
+| **[ghostlines](https://github.com/crithstudio-hash/ghostlines)** | Find code your team merged but never understood |
+| **[agent-circuit](https://github.com/crithstudio-hash/agent-circuit)** | Circuit breaker for agent tool calls |
+| **[agent-guard](https://github.com/crithstudio-hash/agent-guard)** | Block prompt injection and path traversal at the tool boundary |
+| **[agent-bill](https://github.com/crithstudio-hash/agent-bill)** | Track LLM costs with itemized receipts |
+| **[crowdllm](https://github.com/crithstudio-hash/crowdllm)** | Multi-model voting for better answers |
+| **[vcr-llm](https://github.com/crithstudio-hash/vcr-llm)** | Record and replay LLM conversations for testing |
 
 ## License
 
